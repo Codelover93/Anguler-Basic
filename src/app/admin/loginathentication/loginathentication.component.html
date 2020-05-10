@@ -1,0 +1,13 @@
+<div class="wrapper">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+      <div class=""></div>
+      <!-- Login Form -->
+      <form [formGroup]='loginform'>
+        <input type="text" id="login" class="fst_fld" formControlName="username" placeholder="username">
+        <input type="text" id="password"formControlName="pass" placeholder="password">
+        <input type="button" value="Log In" (click)='onsubmit()'>
+      </form>
+      <div *ngIf="error!=''" class="alert alert-danger alert-dismissible fade show">{{error}}</div>
+    </div>
+  </div>

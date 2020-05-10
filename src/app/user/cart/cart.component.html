@@ -1,0 +1,53 @@
+<div class="product_page">
+  <div class="px-4 px-lg-0">
+    <!-- For demo purpose -->
+    <div class="container text-white py-5 text-center">
+    </div>
+    <!-- End -->
+  
+    <div class="pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 p-5 bg-white rounded shadow-sm mb-5">
+  
+            <!-- Shopping cart table -->
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col" class="border-0 bg-light">
+                      <div class="p-2 px-3 text-uppercase">Product</div>
+                    </th>
+                    <th scope="col" class="border-0 bg-light">
+                      <div class="py-2 text-uppercase">Price</div>
+                    </th>
+                    <th scope="col" class="border-0 bg-light">
+                      <div class="py-2 text-uppercase">Quantity</div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let product of products">
+                      <th scope="row" class="border-0" *ngIf="selected_id==product.id">
+                        <div class="p-2">
+                          <img src="{{product.imgae}}" alt="" width="70" class="img-fluid rounded shadow-sm">
+                          <div class="ml-3 d-inline-block align-middle">
+                            <h5 class="mb-0">
+                              <a href="javascript:void(0)" class="text-dark d-inline-block align-middle">{{product.name}}</a>
+                            </h5>
+                          </div>
+                        </div>
+                      </th>
+                      <td class="border-0 align-middle" *ngIf="selected_id==product.id"><strong>${{product.price*qty}}</strong></td>
+                      <td class="border-0 align-middle" *ngIf="selected_id==product.id"><strong>{{qty}}</strong></td>
+                    </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- End -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
