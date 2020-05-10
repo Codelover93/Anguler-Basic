@@ -11,9 +11,7 @@ If we create separated module then when we will called a perticuler module all t
 
 
 ng generate module module_name –routing
-                
-                or
-
+or
 ng g m module_name –routing
 
 Here ‘--routing’ is used to create the routing.module.ts for every module respectively .
