@@ -11,9 +11,9 @@ Here I just show all the files and folders of app folder which is placed in the 
 If we create separated module then when we will called a perticuler module all the component will loaded which are placed in that module instead of loading all component. To create module use this comand:
 
 
-ng generate module module_name –routing
+###### ng generate module module_name –routing
 or
-ng g m module_name –routing
+###### ng g m module_name –routing
 
 Here ‘--routing’ is used to create the routing.module.ts for every module respectively .
 
