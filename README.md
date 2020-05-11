@@ -1,7 +1,7 @@
 It is a set of code for Anguler basic. Here I cover some topics. Those are:
-## 1.	Moudle creation
-## 2.	Routing
-## 3.	Form creation
+1.	Moudle Creation
+2.	Routing
+3.	Form Creation
 
 Here I just show all the files and folders of app folder which is placed in the src folder in anguler js framework .
 
