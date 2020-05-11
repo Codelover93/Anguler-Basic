@@ -1,4 +1,4 @@
-It is a set of code for Anguler basic. Here I cover some topics. Those are:
+# It is a set of code for Anguler basic. Here I cover some topics. Those are:
 1.	Moudle creation
 2.	Routing
 3.	Form creation
