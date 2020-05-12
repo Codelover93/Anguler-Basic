@@ -1,8 +1,9 @@
-# Anguler Basic
+# Anguler Module Form Service
 It is a set of code for Anguler basic. Here I cover some topics. Those are:
 ##### 1.	Moudle Creation
 ##### 2.	Routing
 ##### 3.	Form Creation
+##### 4.  Use of Service
 
 Here I just show all the files and folders of app folder which is placed in the src folder in anguler js framework .
 
